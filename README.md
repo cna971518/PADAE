@@ -1,4 +1,4 @@
-# PADAE: Federated Intrusion Detection Defense
+# PADAE: Poisoning Attack Defense and Accuracy Enhancement Based on Kolmogorov-Smirnov Test for Federated Learning in Intrusion Detection
 
 ## Overview
 
