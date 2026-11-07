@@ -1,0 +1,514 @@
+{
+  "python": "3.13.5",
+  "passed": 116,
+  "skipped": 1,
+  "failed": 0,
+  "python39_syntax_files": 29,
+  "comment_tokens": 0,
+  "cli_help_checks": [
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[main.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[run_experiments.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[summarize_results.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[calibrate_mpdd.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[benchmark.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/prepare.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/preprocess_unsw_nb15.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/Preprocess_cicids2017.py]",
+      "status": "passed"
+    }
+  ],
+  "tensorflow_training_executed": false,
+  "full_benchmark_data_processed": false,
+  "test_cases": [
+    {
+      "test": "tests.test_calibration.test_clean_monitoring_does_not_load_test_partitions",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_and_loading_from_new_runs",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_rejects_changed_training_data",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_file_mutation_is_detected",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_cli_overrides_config_threshold",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_rejects_uncovered_dataset_or_count",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_batch_uses_calibrated_threshold",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_rejects_partial_trajectory",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_rejects_invalid_or_zero_margin",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_rejects_duplicate_rounds",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_excludes_gaps_invalid_splits_and_identity_changes",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_dry_run_creates_plan_without_threshold",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_calibration_end_to_end_control_flow",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_source_hashes_ignore_virtualenv_and_data",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_calibration.test_cma_floor_cannot_silently_change_protocol",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[0-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[0-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[0.5-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[0.5-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[1-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_pdt_immutable_donors[1-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[0-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[0-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[0.5-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[0.5-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[1-UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_label_flip_preserves_features[1-CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_rw_replaces_biases_and_is_seeded",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_equals_empirical_ks[0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_equals_empirical_ks[1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_equals_empirical_ks[2]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_equals_empirical_ks[3]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_equals_empirical_ks[4]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mqv_uniform_and_perfect",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_class_metrics_all_classes",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cosine_zero_and_direction[a0-b0-0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cosine_zero_and_direction[a1-b1-1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cosine_zero_and_direction[a2-b2-0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cosine_zero_and_direction[a3-b3-2]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cosine_zero_and_direction[a4-b4-1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_first_kernel_not_bias",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_partition_formula",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_equal_groups_invalid",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_mpdd_warmup_warning_confirmation_and_reset",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_membership_change_clears_hits",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_minimum_survivors_applies_to_candidates",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_monitor_never_removes",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_cma_group_mass_and_rounding",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_aggregate_includes_bias_and_fedavg_counts",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_coordinate_outlier[median]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_coordinate_outlier[trimmed_mean]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_ddaba_equal_and_outlier",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_trust_zero_root_keeps_global[fltrust]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_trust_zero_root_keeps_global[flest]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_trust_antiparallel_has_no_weight",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_statavg_matches_pooled_distribution",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_configuration_fixed_parameters",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[tau_mqv-1.1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[tau_r-1.0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[beta-0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[lam-1.1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[rounds-0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_numeric.test_bad_configuration_rejected[batch_size-0]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_full_independent_test_and_fixed_splits",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_data_hash_verification",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_schema_mismatch_fails",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_no_legacy_resplit_fallback",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_encoder_not_fitted_on_heldout",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_synthetic_preprocessing_partition_disjoint[UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_synthetic_preprocessing_partition_disjoint[CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[uniform]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[mqv_only]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[mpdd_only]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[cma_only]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[mqv_mpdd]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[mqv_cma]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[mpdd_cma]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[padae]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[fedavg]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[median]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[trimmed_mean]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[ddaba]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[fltrust]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_runner_control_flow_all_methods[flest]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_all_reject_boundary_not_success",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_mqv_two_rejections_remove_without_mixed_streak",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_mqv_equality_passes",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_output_not_overwritten",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[comparison-1260]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[ablation-400]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[clean-ablation-80]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[mqv-sensitivity-210]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[cma-grid-250]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_counts[calibration-20]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_one_dataset_ablation_200",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_summary_recomputes_sample_sd",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_calibration_uses_same_episode_consecutive_rounds",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_cli_check_only_without_tensorflow",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_plan_identity_override_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_summary_detects_changed_output",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_old_pvalue_flag_not_silently_accepted",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_invalid_boolean_config_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_three_client_settings[1-out-of-10-10-1]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_three_client_settings[4-out-of-10-10-4]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_three_client_settings[4-out-of-20-20-4]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_pipeline.test_untrimmed_mode_is_explicit",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_raw_csv_entrypoint_builds_fresh_partitions[UNSW-NB15]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_raw_csv_entrypoint_builds_fresh_partitions[CIC-IDS2017]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[main.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[run_experiments.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[summarize_results.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[calibrate_mpdd.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[benchmark.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/prepare.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/preprocess_unsw_nb15.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_raw_entrypoints.test_cli_help_entrypoint[preprocess/Preprocess_cicids2017.py]",
+      "status": "passed"
+    },
+    {
+      "test": "tests.test_tensorflow_optional.test_tensorflow_architecture_and_optimizer_persistence",
+      "status": "skipped"
+    }
+  ]
+}
